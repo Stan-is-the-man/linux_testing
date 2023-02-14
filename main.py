@@ -6,8 +6,7 @@ while ":" in command:
     name = split[0]
     points = int(split[1])
     course = split[2]
-    students[name] = [points, course]
-    
+    students[name] = [points, course]    
     command = input()
 
 for name, points in students.items():
